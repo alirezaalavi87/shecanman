@@ -9,7 +9,8 @@ A simple lightweight utility script to use [Shecan](https://www.shecan.ir) DNS s
 Download the latest version as below:
 
 ```shell script
-curl -L -O https://github.com/alirezaalavi87/shecanman/releases/latest/download/shecanman
+git clone https://github.com/alirezaalavi87/shecanman.git
+cd shecanman
 chmod +x shecanman
 ```
 
