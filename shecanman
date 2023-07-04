@@ -196,6 +196,7 @@ function install() {
   chmod +x shecanman
   mkdir -p /usr/local/bin
   cp shecanman /usr/local/bin/
+  cp shecanman /usr/sbin/
   echo "${bold}${green} Congratulations! shecanman now is accessible everywhere.${normal}"
   if ! is_shecan_on; then
     echo "${bold}${green} Use [shecanman on] to switch on Shecan.ir DNS configs.${normal}"
