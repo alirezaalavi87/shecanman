@@ -1,7 +1,10 @@
 #!/bin/sh
 
-# Author: Alireza Alavi (alavialireza@protonmail.com)
-# Project: ShecanMan (https://github.com/alirezaalavi87/shecanman)
+# Original author: Amir Rezazadeh (@amirz98)
+# Original project: ShecanMan (https://github.com/amirz98/shecanman)
+#
+# Modified by: Alireza Alavi (alavialireza@protonmail.com)
+# Fork: https://github.com/alirezaalavi87/shecanman
 #
 # If you have found any issue or have some feature request:
 # Please raise them here: https://github.com/alirezaalavi87/shecanman/issues
