@@ -1,3 +1,8 @@
+How this fork differs from upstream:
+- Add compatibility with NetworkManager
+- Fix issue with running with `sudo` by copying to `usr/sbin`
+- Rewrite in `sh` so it is portable across systems without `bash`
+
 # ShecanMan
 
 A simple lightweight utility script to use [Shecan](https://www.shecan.ir) DNS servers temporarily on Linux.
@@ -19,7 +24,7 @@ chmod +x shecanman
 **Installation is optional**, but lets ShecanMan to be accessible from everywhere:
 
 ```shell script
-sudo bash shecanman install
+sudo sh shecanman install
 ```
 
 If you don't want to access ShecanMan system-wide, you can continue using it locally.
