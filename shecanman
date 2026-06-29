@@ -227,6 +227,7 @@ uninstall() {
 
   if [ -f /usr/local/bin/shecanman ]; then
     rm /usr/local/bin/shecanman
+    rm /usr/sbin/shecanman
   fi
   echo "${bold}${green} shecanman uninstalled successfully.${normal}"
 }
